@@ -59,15 +59,21 @@
 .box > .icon {
 	text-align: center;
 }
+/* center align the skills text */
 .box > h4 {
 	text-align: center;
 }
+/* skills icon size */
 .icon > i {
 	font-size: 150px;
 }
+
 .contact-div {
 	text-align: center;
 }
 .resume-icon {
 	text-align: center;
+}
+.no-icon {
+	height: 150px;
 }
