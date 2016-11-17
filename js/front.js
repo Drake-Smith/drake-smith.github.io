@@ -1,3 +1,18 @@
+//trying to get auto scroll button to work
+// $(document).ready(function () {
+
+//     $('.page-scroll').click(function () {
+
+//         var fuller = $(this).closest('#about').next(),
+//             section = $(this).closest('#about');
+
+//         section.animate({
+//             scrollTop: section.scrollTop() + fuller.offset().top
+//         }, 700);
+
+//     });
+// });
+
 $(function () {
 
     lightbox();

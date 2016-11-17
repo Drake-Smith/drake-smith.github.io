@@ -58,6 +58,7 @@
 /*center align the Skills icons in their divs */
 .box > .icon {
 	text-align: center;
+	height: 150px;
 }
 /* center align the skills text */
 .box > h4 {
@@ -68,12 +69,18 @@
 	font-size: 150px;
 }
 
+/* center the resume and contact info icons */
 .contact-div {
 	text-align: center;
 }
 .resume-icon {
 	text-align: center;
 }
+/* adjust height of the not-Devicon icons to match the Devicon icons */
 .no-icon {
 	height: 150px;
+}
+/* style the scroll arrow on the home page */
+.arrow {
+	text-align: center;
 }
