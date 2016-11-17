@@ -16,7 +16,7 @@
   .navbar-default .navbar-nav > .active > a,
   .navbar-default .navbar-nav > .active > a:hover,
   .navbar-default .navbar-nav > .active > a:focus {
-    border-bottom: solid 4px skyblue;
+	border-bottom: solid 4px skyblue;
   }
 }
 
@@ -30,4 +30,44 @@
 /*Making the underscore line blue for the inverted, black sections*/
 .section-inverse .heading:after {
   background: skyblue;
+}
+
+/*Make contact page icons change size responsive to screen size*/
+.contact-icon {
+	font-size: 200px;
+}
+
+@media (max-width: 991px) {
+	.contact-icon {	
+			font-size: 150px;
+		}
+}
+
+@media (max-width: 768px) {
+	.contact-icon {	
+		font-size: 100px;
+	}
+}
+
+@media (max-width: 640px) {
+	.contact-icon {	
+		font-size: 50px;
+	}
+}
+
+/*center align the Skills icons in their divs */
+.box > .icon {
+	text-align: center;
+}
+.box > h4 {
+	text-align: center;
+}
+.icon > i {
+	font-size: 150px;
+}
+.contact-div {
+	text-align: center;
+}
+.resume-icon {
+	text-align: center;
 }
