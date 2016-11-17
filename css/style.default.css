@@ -161,7 +161,6 @@ p.social a.email {
   margin-top: 40px;
   margin-bottom: 40px;
   color: #eeeeee;
-  font-style: italic;
 }
 .copyright p.credit {
   text-align: right;
@@ -287,8 +286,7 @@ NAVBAR
 }
 /* navbar */
 .navbar {
-  font-family: "Cardo", "Times New Roman", Times, serif;
-  font-style: italic;
+  font-family: "Lato", sans-serif;
   min-height: 40px;
   margin-bottom: 0;
   border-bottom: 1px solid transparent;
