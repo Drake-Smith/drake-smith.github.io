@@ -43,7 +43,7 @@
 		}
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
 	.contact-icon {	
 		font-size: 100px;
 	}
@@ -53,7 +53,7 @@
 	.contact-icon {	
 		font-size: 50px;
 	}
-}
+}*/
 
 /*center align the Skills icons in their divs */
 .box > .icon {
