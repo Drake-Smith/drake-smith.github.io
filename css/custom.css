@@ -92,6 +92,9 @@
 	background-color: #333;
 	border-radius: 0;
 }
+.modal-header {
+	border-bottom: 4px solid skyblue;
+}
 .live-links {
 	margin-top: 10px;
 	margin-bottom: 10px;
