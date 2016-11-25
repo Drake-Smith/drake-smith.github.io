@@ -76,7 +76,8 @@ section {
 .section-inverse h3,
 .section-inverse h4,
 .section-inverse h5,
-.section-inverse h6 {
+.section-inverse h6,
+.section-inverse p {
   color: #fff;
 }
 .section-inverse .heading:after {
@@ -985,3 +986,6 @@ a.list-group-item.active > .badge,
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
+
+
+
