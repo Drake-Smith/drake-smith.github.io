@@ -116,6 +116,7 @@
 	text-decoration: none;
 }
 
+/*Text overlay custom settings */
 .box {
 	position: relative;
 }
@@ -128,13 +129,8 @@
 	background: rgba(135, 206, 250, 0.5);
 	visibility: hidden;
 }
-.box:hover .box-overlay{
+.box:hover .box-overlay {
 	visibility: visible;
-}
-
-
-.overlay-text {
-	color: black;
 }
 
 .about-pic {
