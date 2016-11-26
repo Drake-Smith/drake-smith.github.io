@@ -553,11 +553,12 @@ NAVBAR
 }
 /* scaffolding */
 body {
-  font-family: "Cardo", "Times New Roman", Times, serif;
+  font-family: "Lato", "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 1.42857143;
   color: #333333;
   background-color: #ffffff;
+  letter-spacing: 0.8px;
 }
 a {
   color: #444444;
