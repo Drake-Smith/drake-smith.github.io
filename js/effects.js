@@ -4,7 +4,7 @@ $(document).ready(function(){
     $(".hov-effect").hover(function(){
     	$(this).css("color", "skyblue");
    	}, function(){
-    	$(this).css("color", "black");
+    	$(this).css("color", "#777777");
 	});
 
     //home page arrow turns blue on hover

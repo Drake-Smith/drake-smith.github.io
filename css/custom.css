@@ -156,3 +156,13 @@
 	color: skyblue;
 }
 
+.portfolio-lead {
+	padding-bottom: 20px;
+}
+
+.modal-body > * {
+	padding-top: 20px;
+}
+.project-description {
+	padding-top: 20px;
+}
