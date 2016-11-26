@@ -73,6 +73,7 @@
 .contact-div {
 	text-align: center;
 }
+
 .resume-icon {
 	text-align: center;
 }
@@ -85,16 +86,16 @@
 	text-align: center;
 }
 
-.modal {
-
-}
+/* change background of modal to dark, and change corners to 90 degrees*/
 .modal-content {
 	background-color: #333;
 	border-radius: 0;
 }
+/* skyblue accet line */
 .modal-header {
 	border-bottom: 4px solid skyblue;
 }
+/* content inside modal */
 .live-links {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -114,3 +115,24 @@
 	color: skyblue;
 	text-decoration: none;
 }
+
+.box {
+	position: relative;
+}
+.box-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(135, 206, 250, 0.5);
+}
+
+.overlay-text {
+	color: black;
+}
+
+.about-pic {
+	margin-top: 33%;
+}
+
