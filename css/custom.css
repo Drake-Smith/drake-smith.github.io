@@ -143,6 +143,10 @@
 .box:hover .box-overlay .overlay-text {
 	color: #333;
 }
+.overlay-text {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 .overlay-title {
 	padding-top: 10%;

@@ -116,22 +116,27 @@
                             <p class="portfolio-lead">Here are some projects I've made.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-4">
+                    <div class="row"> <!-- start of all portfolio projects -->
+
+                        <div class="col-sm-4"> <!--start of one portfolio project -->
                             <div class="box">     
-                                <img src="img/handshake1.png" alt="" class="img-responsive test">     
+                                <img src="img/projects/handshake1.png" alt="" class="img-responsive test">     
                               
                                 <a href="#" class="box-overlay" title="Handshake" data-toggle="modal" data-target="#handshake-modal">
                                     <div class="box-content">
                                         <h4 class="overlay-text overlay-title text-center">Handshake</h4>  
                                         <p class="overlay-text text-center">Item Exchange Full-Stack Application.</p>
-                                        <div class="overlay-text text-center"><i class="fa fa-3x fa-arrow-circle-right" aria-hidden="true"></i></div>
+                                        <div class="row">
+                                            <div class="overlay-text text-center">
+                                                <i class="fa fa-3x fa-arrow-circle-right" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
                                     </div>  
                                 </a>                              
                             </div>
 
                         
-                            <!-- Large modal -->
+                            <!-- modal for Handshake -->
                             <div class="modal fade" id="handshake-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
@@ -142,11 +147,11 @@
                                             <h3 class="modal-title text-center">Handshake</h3>
                                         </div>
                                         <div class="modal-body">
-                                            <img src="img/handshake1.png" alt="" class="img-responsive center-block">
+                                            <img src="img/projects/handshake1.png" alt="" class="img-responsive center-block">
 
                                             <div class="row">
                                                 <div class="col-sm-6 text-center live-links">
-                                                    <a href="http://nameless-chamber-30572.herokuapp.com/" target="_blank" title="Handshake" class="live-link-font"><i class="fa fa-link" aria-hidden="true"></i> <strong>View Live Site</strong></a>
+                                                    <a href="https://nameless-chamber-30572.herokuapp.com/" target="_blank" title="Handshake" class="live-link-font"><i class="fa fa-link" aria-hidden="true"></i> <strong>View Live Site</strong></a>
                                                 </div>
                                                 <div class="col-sm-6 text-center live-links">
                                                     <a href="https://github.com/andrewbkil/handshake" target="_blank" title="View GitHub" class="live-link-font"><i class="fa fa-github" aria-hidden="true"></i> <strong>View GitHub</strong></a>
@@ -177,71 +182,274 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- <div class="col-sm-4">
-                            <div class="box">
-                                <a href="img/portfolio-2.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 2" data-footer="Some footer information"><img src="img/portfolio-2.jpg" alt="" class="img-responsive">
-                                </a>
-                                <p>Speak Your Mind</p>
+                        </div> <!-- end of one portfolio project -->
+
+                        <div class="col-sm-4"> <!--start of one portfolio project -->
+                            <div class="box">     
+                                <img src="img/projects/speakyourmind-homepage.png" alt="" class="img-responsive test">     
+                              
+                                <a href="#" class="box-overlay" title="Speak Your Mind" data-toggle="modal" data-target="#speakyourmind-modal">
+                                    <div class="box-content">
+                                        <h4 class="overlay-text overlay-title text-center">Speak Your Mind</h4>  
+                                        <p class="overlay-text text-center">Spoken Word Sentiment Analysis App</p>
+                                        <div class="row">
+                                            <div class="overlay-text text-center">
+                                                <i class="fa fa-3x fa-arrow-circle-right" aria-hidden="true">
+                                                </i>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </a>                              
                             </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="box">
-                                <a href="img/portfolio-3.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 3" data-footer="Some footer information"><img src="img/portfolio-3.jpg" alt="" class="img-responsive">
-                                </a>
-                                <p>Chef's On Me</p>
+
+                        
+                            <!-- Large modal -->
+                            <div class="modal fade" id="speakyourmind-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true" style="color: white">&times;</span>
+                                            </button>
+                                            <h3 class="modal-title text-center">Speak Your Mind</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/projects/speakyourmind-homepage.png" alt="" class="img-responsive center-block">
+
+                                            <div class="row">
+                                                <div class="col-sm-6 text-center live-links">
+                                                    <a href="https://speakyourmind-app.herokuapp.com/" target="_blank" title="View Live Site" class="live-link-font"><i class="fa fa-link" aria-hidden="true"></i> <strong>View Live Site</strong></a>
+                                                </div>
+                                                <div class="col-sm-6 text-center live-links">
+                                                    <a href="https://github.com/Drake-Smith/speakyourmind-app" target="_blank" title="View GitHub" class="live-link-font"><i class="fa fa-github" aria-hidden="true"></i> <strong>View GitHub</strong></a>
+                                                </div>
+                                            </div>
+                                            <p class="project-description">Front-end web application that converts the user’s speech into text, analyzes the sentiment of those words, and populates data and graphs with the positive and negative sentiment scores of key words. Built with HTML, CSS, Javascript, jQuery, Firebase, Chart.js and utilized Web Speech API and Twinword’s Sentiment Analysis API. Web Speech API requires Chrome as it's browser. </p>
+                                            <h6>Built with:</h6>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <ul>
+                                                        <li>HTML</li>
+                                                        <li>JavaScript</li>
+                                                        <li>Firebase</li>                                        
+                                                        <li>Handlebars JS</li>
+                                                        <li>Web Speech API</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <ul>
+                                                        <li>CSS</li>
+                                                        <li>jQuery</li>
+                                                        <li>Chart.js</li>
+                                                        <li>Twinword Sentiment Analysis API</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="box">
-                                <a href="img/portfolio-4.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 4" data-footer="Some footer information"><img src="img/portfolio-4.jpg" alt="" class="img-responsive">
-                                </a>
-                                <p>Hangman</p>
+                        </div> <!-- end of one portfolio project -->
+
+                        <div class="col-sm-4"> <!--start of one portfolio project -->
+                            <div class="box">     
+                                <img src="img/projects/chefsonme.png" alt="" class="img-responsive test">     
+                              
+                                <a href="#" class="box-overlay" title="Chef's On Me" data-toggle="modal" data-target="#chefsonme-modal">
+                                    <div class="box-content">
+                                        <h4 class="overlay-text overlay-title text-center">Chef's On Me</h4>  
+                                        <p class="overlay-text text-center">Full Stack MERN App matches Private Chef's with Users</p>
+                                        <div class="row">
+                                            <div class="overlay-text text-center">
+                                                <i class="fa fa-3x fa-arrow-circle-right" aria-hidden="true">
+                                                </i>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </a>                              
                             </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="box">
-                                <a href="img/portfolio-5.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 5" data-footer="Some footer information"><img src="img/portfolio-5.jpg" alt="" class="img-responsive">
-                                </a>
-                                <p>Trivia</p>
+
+                        
+                            <!-- Large modal -->
+                            <div class="modal fade" id="chefsonme-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true" style="color: white">&times;</span>
+                                            </button>
+                                            <h3 class="modal-title text-center">Chef's On Me</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/projects/chefsonme.png" alt="" class="img-responsive center-block">
+
+                                            <div class="row">
+                                                <div class="col-sm-6 text-center live-links">
+                                                    <a href="https://mighty-taiga-76445.herokuapp.com" target="_blank" title="View Live Version" class="live-link-font"><i class="fa fa-link" aria-hidden="true"></i> <strong>View Live Site</strong></a>
+                                                </div>
+                                                <div class="col-sm-6 text-center live-links">
+                                                    <a href="https://github.com/andrewnaeve/chefs-on-me" target="_blank" title="View GitHub" class="live-link-font"><i class="fa fa-github" aria-hidden="true"></i> <strong>View GitHub</strong></a>
+                                                </div>
+                                            </div>
+                                            <p class="project-description">I participated in Startup Weekend - Los Angeles, an event that gathers entrepreneurs, developers, marketers, and designers together into groups to create a company over the course of one weekend. The company I was a part of was Chef's On Me, a platform that allows users to conveniently search for and hire private chefs at an affordable price. </p>
+
+                                            <p class="project-description">Because of the extremely limited amount of time, my goal, as part of the development team, was to create a Minimum Viable Product that could be easily scaled for the future. Over the course of 1.5 days, myself and two other developers built a working version of Chef's On Me with the MERN stack (Mongo, Express, React, Node). The structure of the company's web application was in place so that, with more time, we can continue adding features to the site. We also used React so that we could later create an iOS and Android app with React Native.</p>
+                                            <h6>Built with:</h6>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <ul>
+                                                        <li>MongoDB</li>
+                                                        <li>React</li>
+                                                        <li>Firebase</li>                                        
+                                                        <li>HTML</li>
+                                                        <li>JSX</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <ul>
+                                                        <li>Express</li>
+                                                        <li>Node</li>
+                                                        <li>CSS</li>
+                                                        <li>Bootstrap</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="box">
-                                <a href="img/portfolio-6.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 6" data-footer="Some footer information"><img src="img/portfolio-6.jpg" alt="" class="img-responsive">
-                                </a>
-                                <p>Blah Blah</p>
+                        </div> <!-- end of one portfolio project -->
+
+                        <div class="col-sm-4"> <!--start of one portfolio project -->
+                            <div class="box">     
+                                <img src="img/projects/hptrivia.png" alt="" class="img-responsive test">     
+                              
+                                <a href="#" class="box-overlay" title="Trivia Game" data-toggle="modal" data-target="#triviagame-modal">
+                                    <div class="box-content">
+                                        <h4 class="overlay-text overlay-title text-center">Trivia Game</h4>  
+                                        <p class="overlay-text text-center">Harry Potter-themed timed Trivia Game</p>
+                                        <div class="row">
+                                            <div class="overlay-text text-center">
+                                                <i class="fa fa-3x fa-arrow-circle-right" aria-hidden="true">
+                                                </i>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </a>                              
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="box">
-                                <a href="img/portfolio-7.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 7" data-footer="Some footer information"><img src="img/portfolio-7.jpg" alt="" class="img-responsive">
-                                </a>
-                                <p>Blah Blah</p>
+
+                        
+                            <!-- Large modal -->
+                            <div class="modal fade" id="triviagame-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true" style="color: white">&times;</span>
+                                            </button>
+                                            <h3 class="modal-title text-center">Trivia Game</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/projects/hptrivia.png" alt="" class="img-responsive center-block">
+
+                                            <div class="row">
+                                                <div class="col-sm-6 text-center live-links">
+                                                    <a href="https://harrypotter-quiz.herokuapp.com/" target="_blank" title="View Live Version" class="live-link-font"><i class="fa fa-link" aria-hidden="true"></i> <strong>View Live Site</strong></a>
+                                                </div>
+                                                <div class="col-sm-6 text-center live-links">
+                                                    <a href="https://github.com/Drake-Smith/trivia-game" target="_blank" title="View GitHub" class="live-link-font"><i class="fa fa-github" aria-hidden="true"></i> <strong>View GitHub</strong></a>
+                                                </div>
+                                            </div>
+                                            <p class="project-description">This is a Harry Potter-themed trivia game. Users answer a series of timed questions and can view their correct and incorrect scores at the end. Built with HTML, CSS, JavaScript, and jQuery.</p>
+
+                                            <h6>Built with:</h6>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <ul>
+                                                        <li>HTML</li>
+                                                        <li>JavaScript</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <ul>
+                                                        <li>CSS</li>
+                                                        <li>jQuery</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        </a>
-                        <div class="col-sm-4">
-                            <div class="box">
-                                <a href="img/portfolio-8.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 8" data-footer="Some footer information"><img src="img/portfolio-8.jpg" alt="" class="img-responsive">
-                                </a>
-                                <p>Blah </p>
+                        </div> <!-- end of one portfolio project -->
+
+                        <div class="col-sm-4"> <!--start of one portfolio project -->
+                            <div class="box">     
+                                <img src="img/projects/gifsearch.png" alt="" class="img-responsive test">     
+                              
+                                <a href="#" class="box-overlay" title="Gif Search" data-toggle="modal" data-target="#gifsearch-modal">
+                                    <div class="box-content">
+                                        <h4 class="overlay-text overlay-title text-center">Gif Search</h4>  
+                                        <p class="overlay-text text-center">Gif Search powered by Giphy API</p>
+                                        <div class="row">
+                                            <div class="overlay-text text-center">
+                                                <i class="fa fa-3x fa-arrow-circle-right" aria-hidden="true">
+                                                </i>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </a>                              
                             </div>
-                        </div>
-                        </a>
-                        <div class="col-sm-4">
-                            <div class="box">
-                                <a href="img/portfolio-9.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 9" data-footer="Some footer information"><img src="img/portfolio-9.jpg" alt="" class="img-responsive">
-                                </a>
-                                <p>Blah</p>
+
+                        
+                            <!-- Large modal -->
+                            <div class="modal fade" id="gifsearch-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true" style="color: white">&times;</span>
+                                            </button>
+                                            <h3 class="modal-title text-center">Gif Search</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/projects/gifsearch.png" alt="" class="img-responsive center-block">
+
+                                            <div class="row">
+                                                <div class="col-sm-6 text-center live-links">
+                                                    <a href="https://gif-searcher.herokuapp.com/" target="_blank" title="View Live Version" class="live-link-font"><i class="fa fa-link" aria-hidden="true"></i> <strong>View Live Site</strong></a>
+                                                </div>
+                                                <div class="col-sm-6 text-center live-links">
+                                                    <a href="https://github.com/Drake-Smith/giphy-api" target="_blank" title="View GitHub" class="live-link-font"><i class="fa fa-github" aria-hidden="true"></i> <strong>View GitHub</strong></a>
+                                                </div>
+                                            </div>
+                                            <p class="project-description">Using Gif Search, the user can input a search query, which will pull up a selection of related gifs. The user can start or stop the gif animation by clicking on each individual gif. The user can also add a search button.</p>
+
+                                            <h6>Built with:</h6>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <ul>
+                                                        <li>HTML</li>
+                                                        <li>JavaScript</li>
+                                                        <li>Giphy API</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <ul>
+                                                        <li>CSS</li>
+                                                        <li>jQuery</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        </a> -->
-                    </div>
+                        </div> <!-- end of one portfolio project -->
+
+
+
+                    </div> <!-- end of entire portfolio section row -->
                 </div>
             </div>
         </div>
@@ -446,7 +654,7 @@
         <!-- Bootstrap CDN-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
-    <script>
+<!--     <script>
         (function(b, o, i, l, e, r) {
             b.GoogleAnalyticsObject = l;
             b[l] || (b[l] =
@@ -461,7 +669,7 @@
         }(window, document, 'script', 'ga'));
         ga('create', 'UA-XXXXX-X');
         ga('send', 'pageview');
-    </script>
+    </script> -->
 </body>
 
 </html>
