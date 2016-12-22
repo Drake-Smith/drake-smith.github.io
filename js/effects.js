@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+	//css animate effects when you scroll down
+    $('.scroll-effect').viewportChecker({
+        classToAdd: 'visible animated bounce',
+        offset: 100
+    });
+
 	//navbar text turns blue when you hover over it
     $(".hov-effect").hover(function(){
     	$(this).css("color", "skyblue");
@@ -40,4 +46,6 @@ $(document).ready(function(){
 	}, function(){
 	    $(this).fadeTo("slow", 1).css("color", "black");
 	});
+
+
 });

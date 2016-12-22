@@ -170,3 +170,8 @@
 .project-description {
 	padding-top: 20px;
 }
+
+/* for jQuery viewpoint checker. initial state hidden */
+.hide {
+	opacity: 0;
+}
