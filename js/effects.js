@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 	//navbar text turns blue when you hover over it
     $(".hov-effect").hover(function(){
-    	$(this).css("color", "skyblue");
+    	$(this).css("color", "skyblue").css("transition", "all 0.3s ease");
    	}, function(){
     	$(this).css("color", "#777777");
 	});
@@ -22,29 +22,29 @@ $(document).ready(function(){
 
 	//skills icons hover blue
 	$(".skill-icon-effect").hover(function(){
-	    $(this).find("i").fadeTo("slow", 0.75).css("color", "skyblue");
-	    $(this).find("h4").fadeTo("slow", 0.75).css("color", "skyblue");
-	    $(this).find("a").fadeTo("slow", 0.75).css("color", "skyblue");
+	    $(this).find("i").css("color", "skyblue").css("transition", "all 0.3s ease");
+	    $(this).find("h4").css("color", "skyblue").css("transition", "all 0.3s ease");
+	    $(this).find("a").css("color", "skyblue").css("transition", "all 0.3s ease");
 	}, function(){
-		$(this).find("i").fadeTo("slow", 1).css("color", "black");
-	    $(this).find("h4").fadeTo("slow", 1).css("color", "black");
-	    $(this).find("a").fadeTo("slow", 1).css("color", "black");
+		$(this).find("i").css("color", "#333");
+	    $(this).find("h4").css("color", "#333");
+	    $(this).find("a").css("color", "#333");
 	});
 
 	//contact icons hover blue
 	$(".contact-icon-effect").hover(function(){
-	    $(this).find("i").fadeTo("fast", 1).css("color", "skyblue");
-	    $(this).find("a").fadeTo("fast", 1).css("color", "skyblue");
+	    $(this).find("i").fadeTo("fast", 1).css("color", "skyblue").css("transition", "all 0.3s ease");
+	    $(this).find("a").fadeTo("fast", 1).css("color", "skyblue").css("transition", "all 0.3s ease");
 	}, function(){
-		$(this).find("i").fadeTo("fast", 1).css("color", "#eee");
-	    $(this).find("a").fadeTo("fast", 1).css("color", "#eee");
+		$(this).find("i").css("color", "#eee");
+	    $(this).find("a").css("color", "#eee");
 	});
 
 	//resume icon hover blue
 	$("#resume-effect").hover(function(){
-		$(this).fadeTo("slow", 0.75).css("color", "skyblue");
+		$(this).fadeTo("slow", 0.75).css("color", "skyblue").css("transition", "all 0.3s ease");
 	}, function(){
-	    $(this).fadeTo("slow", 1).css("color", "black");
+	    $(this).css("color", "#333");
 	});
 
 
