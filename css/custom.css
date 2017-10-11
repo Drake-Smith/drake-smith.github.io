@@ -34,14 +34,14 @@
 
 /*Make contact page icons change size responsive to screen size*/
 .contact-icon {
-	font-size: 200px;
+	font-size: 100px;
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	.contact-icon {	
 			font-size: 150px;
 		}
-}
+} */
 
 /*@media (max-width: 768px) {
 	.contact-icon {	
@@ -54,19 +54,29 @@
 		font-size: 50px;
 	}
 }*/
+@media (max-width: 481px) {
+	.contact-icon {	
+		font-size: 75px;
+	}
+}
 
 /*center align the Skills icons in their divs */
 .box > .icon {
 	text-align: center;
-	height: 150px;
+	height: 75px;
 }
 /* center align the skills text */
 .box > h4 {
 	text-align: center;
+	font-size: 18px;
+}
+
+#long-skillname {
+	font-size: 18px;
 }
 /* skills icon size */
 .icon > i {
-	font-size: 150px;
+	font-size: 75px;
 }
 
 /* center the resume and contact info icons */
@@ -156,6 +166,23 @@
 	margin-top: 33%;
 }
 
+@media (max-width: 769px) {
+	.about-pic {
+		margin-top: 0;
+	}
+}
+
+.lead-text {
+	font-size: 48px;
+}
+@media (max-width: 481px) {
+	.lead-text {
+		font-size: 40px;
+	}
+}
+/*.lead-text {
+	font-size: 40px;
+}*/
 #blue-name {
 	color: skyblue;
 }
